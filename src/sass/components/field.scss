@@ -1,0 +1,27 @@
+.field__inner {
+  position: relative;
+
+  border: 2px solid var(--color-neutral-6);
+  border-radius: 8px;
+}
+
+.field__input {
+  padding: 10px 16px;
+  
+  background: transparent;
+  border: none;
+}
+
+.field__btn {
+  position: absolute;
+  inset-inline-end: 0;
+  inset-block: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  background: none;
+  border: none;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "drive-moto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hisbvdis/onix-test-task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hisbvdis/onix-test-task/issues"
+  },
+  "homepage": "https://github.com/hisbvdis/onix-test-task#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "browser-sync": "^2.27.10",
+    "dev-ip": "^1.0.1",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-svgmin": "^4.1.0",
+    "gulp-svgstore": "^9.0.0",
+    "gulp-webp": "^4.0.1",
+    "postcss-csso": "^6.0.1",
+    "sass": "^1.56.1"
+  }
+}

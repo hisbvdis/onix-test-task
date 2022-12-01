@@ -1,0 +1,25 @@
+.navBtn {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  inline-size: 32px;
+  block-size: 32px;
+  padding: 0;
+
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.navBtn__line {
+  display: block;
+  inline-size: 21px;
+  block-size: 3px;
+
+  background-color: var(--color-neutral-4);
+  border-radius: 3px;
+}

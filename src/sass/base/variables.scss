@@ -1,0 +1,14 @@
+:root {
+  --color-primary-1: #3772FF;
+  
+  --color-neutral-1: #141416;
+  --color-neutral-2: #23262F;
+  --color-neutral-4: #777E90;
+  --color-neutral-6: #E6E8EC;
+  --color-neutral-8: #FCFCFD;
+}
+
+// Screen media breakpoints
+$desktop: 1120px;
+$tablet: 865px;
+$tablet-max: $desktop - 1;

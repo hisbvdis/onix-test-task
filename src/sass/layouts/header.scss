@@ -1,0 +1,42 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 50px 25px;
+}
+
+.header__actions {
+  display: none;
+}
+
+.header__nav {
+  display: none;
+}
+
+
+@media (min-width: $tablet) {
+  .header__nav {
+    margin-inline: 30px auto;
+  }
+
+  .header__actions {
+    display: flex;
+  }
+
+  .header__navBtn {
+    display: none;
+  }
+}
+
+
+@media (min-width: $desktop) {
+  .header__logo {
+    padding-inline-end: 30px;
+    
+    border-inline-end: 2px solid var(--color-neutral-6);
+  }
+  
+  .header__nav {
+    display: flex;
+  }
+}
